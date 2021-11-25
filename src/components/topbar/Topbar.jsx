@@ -41,7 +41,7 @@ export default function Topbar() {
           <Link className="link" to="/settings">
             <img
               className="topImg"
-              src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://ca.slack-edge.com/T024TK93N-U02DHFV4N83-8d5a820d5cd5-512"
               alt=""
             />
           </Link>
