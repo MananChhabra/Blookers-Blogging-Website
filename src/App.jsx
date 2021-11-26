@@ -7,6 +7,7 @@ import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   const currentUser = true;
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/contact">
+          <Contact />
         </Route>
         <Route path="/register">
           {currentUser ? <Homepage /> : <Register />}
