@@ -2,13 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 export default function Contact() {
-    const [data, setData] = React.useState(null);
-
-  React.useEffect(() => {
-    fetch("/api")
-      .then((res) => res.json())
-      .then((data) => setData(data.message));
-  }, []);
+    
     return (
         <div>
 
@@ -45,7 +39,7 @@ export default function Contact() {
                         <p className='my-3' style={{fontSize:"1.2em"}}>
                             <i class="fab fa-linkedin"></i> <a href='https://www.linkedin.com/in/mananchhabra1402/'>Manan Chhabra</a>
                         <br/>
-                        <i class="fas fa-envelope"></i> mananchhabra@gmail.com
+                        <i class="fas fa-envelope"></i> mananchhabra1402@gmail.com
                         </p>
                         
                     </div>
@@ -56,7 +50,7 @@ export default function Contact() {
                         <p className='my-3'  style={{fontSize:"1.2em"}}>
                             <i class="fab fa-linkedin"></i> <a href='https://www.linkedin.com/in/ekansh-gupta52/'>Ekansh Gupta</a>
                         <br/>
-                        <i class="fas fa-envelope"></i> ekanshgupta@gmail.com
+                        <i class="fas fa-envelope"></i> ekansh5200@gmail.com
                         </p>
                         
                     </div>
